@@ -1,0 +1,22 @@
+[[runners]]
+name = "run"
+command = [
+    'cargo',
+    'run',
+]
+
+[[runners]]
+name = "test"
+command = [
+    'cargo',
+    'test',
+]
+
+[[runners]]
+name = "build"
+command = [
+    'cargo',
+    'build',
+    '--release',
+]
+
